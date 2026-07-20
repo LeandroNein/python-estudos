@@ -1,0 +1,6 @@
+numero = input("Escreva seu número: ")
+numero = numero.replace("()", "")
+numero = numero.replace(" ", "")
+numero = numero.replace("-" , "")
+numero = numero.replace("+", "")
+print(numero)
